@@ -1,0 +1,20 @@
+# igonore all files in the __pycahce__ directory
+neural_plane/__pycache__/
+neural_plane/core/__pycache__/
+neural_plane/metrics/__pycache__/
+
+# ignore expr directory in repo
+neural_plane/expr/
+expr/checkpoints
+
+# ignore data directory
+neural_plane/data/
+
+# ignore dataset directory
+ffhq-256x256
+
+# igonore .vscode directory
+.vscode/
+
+# ignore extra files
+main.ipynb
