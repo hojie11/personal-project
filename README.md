@@ -12,3 +12,7 @@
 위의 모델은 **Target image**와 **Real image**를 입력으로 **Target image**로부터 추출된 style vector를 **Real image**에 적용시켜 Generator에서 추출된 결과를 Tri-plane representation으로 변형하여 Volume Rendering을 수행합니다.</br></br>
 생성된 이미지는 Discriminator에서 기존 Stargan-v2의 pipeline을 따라 판별됩니다.
 다만, 기존의 Discriminator와 다르게 camera parameter를 추가로 입력 받아 pose aware하도록 Discriminator를 학습시킵니다.
+
+
+##
+본 Repository는 연구용 목적으로 개설되었습니다.
