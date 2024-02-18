@@ -14,5 +14,12 @@
 다만, 기존의 Discriminator와 다르게 camera parameter를 추가로 입력 받아 pose aware하도록 Discriminator를 학습시킵니다.
 
 
+
+
 ##
 본 Repository는 연구용 목적으로 개설되었습니다.
+---
+###
+참고 </br>
+Stargan-v2  - [github](https://github.com/clovaai/stargan-v2) </br>
+EG3D - [github](https://github.com/NVlabs/eg3d)
