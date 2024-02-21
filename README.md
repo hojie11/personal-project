@@ -41,8 +41,8 @@ Depth 이미지를 보았을 때, 이미지에서 생성된 안경부분이 선�
 <center><img src="./assets/reference.jpg" width="70%", height="70%"></center>
 <center><img src="./assets/depth.jpg" width="70%", height="70%"></center>
 
-###
-**참고** </br>
+---
+### 참고
 Stargan-v2(StarGAN v2: Diverse Image Synthesis for Multiple Domains)  - [github](https://github.com/clovaai/stargan-v2) </br>
 EG3D(Efficient Geometry-aware 3D Generative Adversarial Networks) - [github](https://github.com/NVlabs/eg3d)
 
