@@ -8,7 +8,7 @@
 2. 기존 방법은 e4e([Encoder for Editing](https://github.com/omertov/encoder4editing)), pSp([pixel2Style2pixel](https://github.com/eladrich/pixel2style2pixel)), PTI([Pivot Tuning Inversion](https://github.com/danielroich/PTI.git)) 등의 방법과 같이 이미지에서 Encoder를 통해 추출한 latent vector를 별도의 데이터로 저장하여 GAN의 입력으로 하여금 이미지를 생성하지만, 본 REPO에서는 이미지를 입력으로 하여 Target 이미지에 대한 style vector를 참고한 이미지를 생성하는 방법을 시도해보고 싶어 진행하였습니다.
 
 수정한 Stargan-v2의 framework를 밑에 보이시는 그림과 같이 수정했습니다.</br></br>
-<center><img src="./assets/framework.jpg" width="70%", height="70%"></center>
+<p align="center"><img src="./assets/framework.jpg" width="70%", height="70%"></p>
 
 위의 모델은 **Target image**와 **Real image**를 입력으로 **Target image**로부터 추출된 style vector를 **Real image**에 적용시켜 Generator에서 추출된 결과를 ```Tri-plane representation```으로 변형하여 Volume Rendering을 수행합니다.</br></br>
 생성된 이미지는 Discriminator에서 기존 **Stargan-v2**의 pipeline을 따라 판별됩니다.
@@ -38,8 +38,10 @@ Depth 이미지에서도 얼굴 외 다른 부분에 수많은 ```Artifacts``` �
 반대로, 임의로 설정한 카메라 파라미터를 통해 이미지를 생성하였을 때, 각도 변화가 이루어지고 있으며,</br>
 Depth 이미지를 보았을 때, 이미지에서 생성된 안경부분이 선명하게 생성된 점을 본다면, 충분한 학습이 이루어졌을 때 개선된 성능을 보일 것 같습니다.
 
-<center><img src="./assets/reference.jpg" width="70%", height="70%"></center>
-<center><img src="./assets/depth.jpg" width="70%", height="70%"></center>
+<p align="center">
+<img src="./assets/reference.jpg" width="70%", height="70%">
+<img src="./assets/depth.jpg" width="70%", height="70%">
+</p>
 
 ---
 ### 참고
