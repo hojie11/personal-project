@@ -1,5 +1,6 @@
 # Modiefied Stargan-v2 for 3D-aware GAN
-
+### 활용스택
+```Python``` ```Pytorch```
 ## 개요
 본 REPO는 개인 프로젝트를 위한 repo로, **EG3D** 논문과 **Stargan-v2** 논문을 참고하여 생성되었습니다.</br>
 본 REPO의 목적은 **Stargan-v2**에 ```tri-plain representation```을 적용하여 geometry aware한 모델을 목표로 하였으며, 이유는 아래와 같습니다.</br>
